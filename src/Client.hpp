@@ -24,7 +24,7 @@ using namespace std;
 class ClientWrongPlayerNumberException: public exception{
 public:
     virtual const char* what() const throw(){
-        return "Player number our of bounds.";
+        return "Player number out of bounds.";
     }
 };
 
